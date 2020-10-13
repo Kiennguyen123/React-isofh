@@ -1,0 +1,24 @@
+.page-logo {
+  padding: 10px !important;
+  img {
+    width: 90px !important;
+  }
+}
+.page-header {
+  height: auto !important;
+  padding: 10px 2rem !important;
+}
+.hidden-md-down.dropdown-icon-menu.position-relative {
+  > img {
+    max-width: 120px;
+  }
+}
+.dropdown-icon-menu > ul {
+  margin-top: 88px;
+}
+.hide {
+  display: none !important;
+}
+.list-filter-active .info-card {
+  height: 5.5rem !important;
+}

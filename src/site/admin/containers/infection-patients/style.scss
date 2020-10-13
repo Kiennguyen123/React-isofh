@@ -1,0 +1,115 @@
+.button-modal {
+    margin: 0 5px;
+    cursor: pointer;
+    i {
+        font-weight: 500 !important;
+        font-size: 20px !important;
+        color: #228bf5 !important;
+    }
+}
+.show-icon {
+    display: block;
+}
+.remove-icon {
+    display: none;
+}
+.procedure {
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    border-radius: 4px;
+    table {
+        width: 100%;
+    }
+}
+.table-body {
+    tr {
+        border-bottom: 1px solid #0000001a;
+        td {
+            padding: 10px;
+            color: #000;
+        }
+        .more-detail {
+            text-align: center;
+        }
+    }
+    tr:last-child {
+        border-bottom: none;
+    }
+}
+.ant-form-item {
+    .ant-form-item-control-wrapper {
+        .ant-form-item-control {
+            .ant-form-item-children {
+                .ant-calendar-picker {
+                    width: -webkit-fill-available;
+                }
+            }
+        }
+    }
+}
+.title {
+    width: 97%;
+    .fix {
+        display: flex;
+        .search-header {
+            .fix-box {
+                .date-box {
+                    margin-left: 15px;
+                }
+            }
+        }
+    }
+}
+.addition-box {
+    .ant-calendar-picker {
+        width: 48% !important;
+        padding-right: 5px;
+    }
+}
+.ant-table-header-column {
+    .ant-table-column-title {
+        .custome-header {
+            .title-box {
+                padding-right: 0px;
+            }
+            .addition-box {
+                padding-right: 0px;
+            }
+        }
+    }
+}
+.validate {
+    margin-top: 2px;
+    color: #f5222d;
+    font-size: 14px !important;
+}
+// .ant-form-item-control-wrapper {
+//     .ant-form-item-control {
+//         height: 32px;
+//     }
+// }
+// .ant-form-item {
+//     height: 90px;
+// }
+
+.custom-table .ant-table-column-title .title-box {
+    background: #093069 !important;
+}
+button.ant-btn.button {
+    background: #093069 !important;
+}
+a.btn.btn-info.btn-icon.waves-effect.waves-themed {
+    background: #093069 !important;
+    box-shadow: unset !important;
+    border: none;
+}
+.ant-table-body::-webkit-scrollbar-thumb {
+    background: #093069 !important;
+}
+.ant-table-body-inner::-webkit-scrollbar-thumb {
+    background: #093069 !important;
+}
+.ant-btn-primary {
+    background: #093069 !important;
+    border: none;
+    box-shadow: none;
+}

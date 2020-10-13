@@ -1,0 +1,55 @@
+.form-print {
+  font-family: "Times New Roman", Times, serif;
+  position: relative;
+  height: 100vh;
+  .form-header {
+    .row {
+      h3 {
+        font-weight: bold;
+        font-size: 18px;
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+  .form-content {
+    h2.title {
+      font-weight: bold;
+      font-size: 22px;
+      padding: 25px 0;
+    }
+    .content {
+      .content-detail {
+        padding: 3px 0;
+        label {
+          font-size: 16px;
+          min-width: 200px;
+        }
+        span {
+          font-weight: bold;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .form-footer {
+    margin-top: 20px;
+    .row {
+      p {
+        font-size: 18px;
+        margin-bottom: 7px;
+        &.get-date {
+          font-style: italic;
+        }
+      }
+    }
+  }
+  .sign-print{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+    font-weight: bold;
+  }
+}

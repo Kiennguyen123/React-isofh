@@ -1,0 +1,66 @@
+.button-modal {
+  margin: 0 5px;
+  cursor: pointer;
+  i {
+    font-weight: 500 !important;
+    font-size: 20px !important;
+    color: #228bf5 !important;
+  }
+}
+.show-icon {
+  display: block;
+}
+.remove-icon {
+  display: none;
+}
+.procedure {
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  border-radius: 4px;
+  padding: 10px;
+  table {
+    width: 100%;
+  }
+}
+.table-body {
+  tr {
+    border-bottom: 1px solid #0000001a;
+    td {
+      padding: 10px;
+      color: #000;
+    }
+    .more-detail {
+      text-align: center;
+    }
+  }
+  tr:last-child {
+    border-bottom: none;
+  }
+}
+.validate {
+  margin-top: 2px;
+  margin-bottom: -22px;
+  color: #f5222d;
+  font-size: 12px !important;
+}
+.custom-table .ant-table-column-title .title-box {
+  background: #093069 !important;
+}
+button.ant-btn.button {
+  background: #093069 !important;
+}
+a.btn.btn-info.btn-icon.waves-effect.waves-themed {
+  background: #093069 !important;
+  box-shadow: unset !important;
+  border: none;
+}
+.ant-table-body::-webkit-scrollbar-thumb {
+  background: #093069 !important;
+}
+.ant-table-body-inner::-webkit-scrollbar-thumb {
+  background: #093069 !important;
+}
+.ant-btn-primary {
+  background: #093069 !important;
+  border: none;
+  box-shadow: none;
+}

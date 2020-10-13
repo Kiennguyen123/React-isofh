@@ -1,0 +1,78 @@
+.creat-button {
+  width: 100%;
+  border-top: 1px solid #e9e9e9;
+  padding: 16px 16px 0px;
+  background: #fff;
+  text-align: right;
+}
+.evaluate-detail {
+  table {
+    width: 100%;
+    tbody {
+      border: 1px solid #ccc;
+      padding: 15px !important;
+      display: block;
+      border-radius: 10px;
+      tr {
+        td {
+          text-align: center;
+          width: 10% !important;
+          padding: 5px;
+          textarea {
+            min-height: 32px;
+            height: fit-content;
+          }
+          .button-modal {
+            position: relative;
+          }
+        }
+      }
+    }
+  }
+}
+.button-modal {
+  margin: 0 5px;
+  cursor: pointer;
+  i {
+    font-weight: 500 !important;
+    font-size: 20px !important;
+    color: #228bf5 !important;
+  }
+}
+.ant-form-item-children span.date {
+  display: block;
+}
+.creat-button {
+  display: block;
+  width: 100%;
+}
+p.notification-error {
+  text-align: left;
+  color: #ff0000;
+  margin-top: 5px;
+  margin-bottom: 0;
+  font-size: 12px;
+  height: 15px;
+}
+.custom-table .ant-table-column-title .title-box {
+  background: #093069 !important;
+}
+button.ant-btn.button {
+  background: #093069 !important;
+}
+a.btn.btn-info.btn-icon.waves-effect.waves-themed {
+  background: #093069 !important;
+  box-shadow: unset !important;
+  border: none;
+}
+.ant-table-body::-webkit-scrollbar-thumb {
+  background: #093069 !important;
+}
+.ant-table-body-inner::-webkit-scrollbar-thumb {
+  background: #093069 !important;
+}
+.ant-btn-primary {
+  background: #093069 !important;
+  border: none;
+  box-shadow: none;
+}
